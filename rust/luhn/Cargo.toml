@@ -1,0 +1,11 @@
+[package]
+edition = "2021"
+name = "luhn"
+version = "1.6.1"
+
+[dependencies]
+criterion = "0.5.1"
+
+[[bench]]
+name = "benchmark"
+harness = false
